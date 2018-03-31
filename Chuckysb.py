@@ -22,7 +22,7 @@ sys.setdefaultencoding('utf-8')
 
 selfMessage ="""
 ╔═════════════════════════
-║            ☆☞ S E L F ☜☆
+║            ☆☞ FRYANT S E L F ☜☆
 ╠═════════════════════════
 ╠➩〘Hi〙
 ╠➩〘Me〙
@@ -56,7 +56,7 @@ selfMessage ="""
 
 botMessage ="""
 ╔═════════════════════════
-║             ☆☞ B O T ☜☆
+║             ☆☞ FRYANT B O T ☜☆
 ╠═════════════════════════
 ╠➩〘Absen〙
 ╠➩〘Respon〙
@@ -76,7 +76,7 @@ botMessage ="""
 
 mediaMessage ="""
 ╔═════════════════════════
-║           ☆☞ M E D I A ☜☆
+║           ☆☞ FRYANT M E D I A ☜☆
 ╠═════════════════════════
 ╠➩〘Gift〙
 ╠➩〘Gift1 @ s/d Gift10 @〙
@@ -117,7 +117,7 @@ mediaMessage ="""
 
 groupMessage ="""
 ╔═════════════════════════
-║           ☆☞ G R O U P ☜☆
+║           ☆☞ FRYANT G R O U P ☜☆
 ╠═════════════════════════
 ╠➩〘Welcome〙
 ╠➩〘Say welcome〙
@@ -151,7 +151,7 @@ tjia="u9f09cfcb17d037e2936b751bd9d40ead"
 
 setMessage ="""
 ╔═════════════════════════
-║              ☆☞ S E T ☜☆
+║              ☆☞ FRYANT S E T ☜☆
 ╠═════════════════════════
 ╠➩〘Sambutan on/off〙
 ╠➩〘Mimic on/off〙
@@ -169,7 +169,7 @@ setMessage ="""
 
 creatorMessage ="""
 ╔═════════════════════════
-║         ☆☞ C R E A T O R ☜☆
+║         ☆☞ FRYANT C R E A T O R ☜☆
 ╠═════════════════════════
 ╠➩〘Crash〙
 ╠➩〘Kickall〙
@@ -229,7 +229,7 @@ adminMessage ="""
 
 helpMessage ="""
 ╔═════════════════════════
-║              ☆☞ H E L P ☜☆
+║              ☆☞ FRYANT H E L P ☜☆
 ╠═════════════════════════
 ╠➩〘Help self〙
 ╠➩〘Help bot〙
@@ -857,7 +857,7 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = nadya.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["Dont Tag!! Lagi Sibuk",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Dia Lagi Off", cName + " Kenapa Tag Saya?","Dia Lagi Tidur\nJangan Di Tag " + cName, "Jangan Suka Tag Gua " + cName, "Kamu Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                     balas = ["Sekali tag, berarti naksir aim😅",cName + " Follow ya id smuleku @Fryant_BSS1",cName + " Iya sayank, I love you too muacchhh😘","aih, org ganteng, ditag mulu🙄", cName + " kaka mau nikung aku yah??🙄","kalau mau didesahin\npm aja kak😂 " + cName, "kangen ya sayank??🙄 " + cName, "Follow id smule ku ya ka @Fryant_BSS1 " + cName + "😘😘😘", "Kaka mau nikung aku yah " + cName + "😰","orang ganteng " + cName + " pasti ditag mulu 😆"]
                      ret_ = random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -871,7 +871,7 @@ def bot(op):
                  if wait["detectMention2"] == True:          
                     contact = nadya.getContact(msg.from_)
                     cName = contact.displayName
-                    balas = ["Sekali lagi nge tag gw sumpahin jomblo seumur hidup!","Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                    balas = ["kenapa sayank,, kangen yah??","jangan tag kalau ga mau aku hamilin","jangan tag " + cName + " tuan muda lagi meeting"]
                     ret_ = random.choice(balas)
                     name = re.findall(r'@(\w+)', msg.text)
                     mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -882,9 +882,9 @@ def bot(op):
                                   msg.contentType = 7   
                                   msg.text = None
                                   msg.contentMetadata = {
-                                                       "STKID": "20001316",
-                                                       "STKPKGID": "1582380",
-                                                       "STKVER": "1" }
+                                                       "STKID": "157",
+                                                       "STKPKGID": "2",
+                                                       "STKVER": "100" }
                                   nadya.sendMessage(msg)                                
                                   break
                               
@@ -892,8 +892,8 @@ def bot(op):
                  if wait["detectMention3"] == True:          
                     contact = nadya.getContact(msg.from_)
                     cName = contact.displayName
-                    balas = ["Woii " + cName + ", Dasar Jones Ngetag Mulu!"]
-                    balas1 = "Ini Foto Sii Jones Yang Suka Ngetag. . ."
+                    balas = ["Iya sayank " + cName + ", Syg kangen ya...aku lg kerja buat menata masa depan kita"]
+                    balas1 = "Supaya aq dan kamu, bahagia selalu😘😘😘"
                     ret_ = random.choice(balas)
                     image = "http://dl.profile.line-cdn.net/" + contact.pictureStatus
                     name = re.findall(r'@(\w+)', msg.text)
@@ -1178,33 +1178,33 @@ def bot(op):
                                       break
                                   
  
-            elif msg.text in ["Key creator","help creator","Help creator"]:
+            elif msg.text in ["Key creator","help creator","Fryant 1"]:
                 nadya.sendText(msg.to,creatorMessage)
 
-            elif msg.text in ["Key group","help group","Help group"]:
+            elif msg.text in ["Key group","help group","Fryant 2"]:
                 nadya.sendText(msg.to,groupMessage)
 
-            elif msg.text in ["Key","help","Help"]:
+            elif msg.text in ["Key","Fryant","Help"]:
                 nadya.sendText(msg.to,helpMessage)
 
-            elif msg.text in ["Key self","help self","Help self"]:
+            elif msg.text in ["Key self","help self","Fryant 3"]:
                 nadya.sendText(msg.to,selfMessage)
 
-            elif msg.text in ["Key bot","help bot","Help bot"]:
+            elif msg.text in ["Key bot","help bot","Fryant 4"]:
                 nadya.sendText(msg.to,botMessage)
 
-            elif msg.text in ["Key set","help set","Help set"]:
+            elif msg.text in ["Key set","help set","Fryant 5"]:
                 nadya.sendText(msg.to,setMessage)
 
-            elif msg.text in ["Key media","help media","Help media"]:
+            elif msg.text in ["Key media","help media","Fryant 6"]:
                 nadya.sendText(msg.to,mediaMessage)
                 
-            elif msg.text in ["Key admin","help admin","Help admin"]:
+            elif msg.text in ["Key admin","help admin","Fryant 7"]:
                 nadya.sendText(msg.to,adminMessage)               
                 
 
  
-            elif msg.text in ["List group"]:
+            elif msg.text in ["Fryant group"]:
                     gid = nadya.getGroupIdsJoined()
                     h = ""
 		    jml = 0
@@ -1614,7 +1614,7 @@ def bot(op):
 		else:md+="╠➩❌ Auto Sider: Off\n"	
 		if wait["Simi"] == True: md+="╠➩✔️ Simisimi : On\n"
 		else:md+="╠➩❌ Simisimi: Off\n"		
-                nadya.sendText(msg.to,"╔═════════════════════════\n""║           ☆☞ S T A T U S ☜☆\n""╠═════════════════════════\n"+md+"╚═════════════════════════")
+                nadya.sendText(msg.to,"╔════════════════════\n""║           ☆☞ F R Y A N T  S T A T U S ☜☆\n""╠════════════════════\n"+md+"╚════════════════════")
 
 
             elif msg.text in ["Gift","gift"]:
